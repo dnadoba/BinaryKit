@@ -7,9 +7,11 @@
 import Foundation
 
 extension FixedWidthInteger {
+    @inline(__always)
     @inlinable
     public var toNetworkByteOrder: Self { self.bigEndian }
     /// A collection containing the words of this value’s binary representation, in order from the least significant to most significant.
+    @inline(__always)
     @inlinable
     public var data: Data {
         var copy = self
@@ -18,10 +20,12 @@ extension FixedWidthInteger {
 }
 
 extension FixedWidthInteger {
+    @inline(__always)
     @inlinable
     public init(networkByteOrder value: Self) {
         self = Self(bigEndian: value)
     }
+    @inline(__always)
     @inlinable
     public init<D>(bytes: D) where D: DataProtocol {
         var mutableSelf = Self()
