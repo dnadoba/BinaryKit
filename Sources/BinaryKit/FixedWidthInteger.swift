@@ -27,6 +27,7 @@ extension FixedWidthInteger {
     }
     @inline(__always)
     @inlinable
+    @_transparent
     public init<D>(bytes: D) where D: DataProtocol {
         var mutableSelf = Self()
         withUnsafeMutableBytes(of: &mutableSelf) { (pointer) in

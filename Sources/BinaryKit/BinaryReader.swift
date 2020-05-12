@@ -233,6 +233,8 @@ public struct BinaryReader<BytesStore: DataProtocol> where BytesStore.Index == I
     }
     
     @inlinable
+    @inline(__always)
+    @_transparent
     public mutating func readInteger<Integer>(byteCount: Int, type: Integer.Type = Integer.self) throws -> Integer where Integer: FixedWidthInteger {
         guard byteCount <= MemoryLayout<Integer>.size else {
             throw BinaryError.requestesByteCountDoesNotFitIntoRequestedIntegerType
