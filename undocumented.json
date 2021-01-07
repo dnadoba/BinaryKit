@@ -1,0 +1,138 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryError.swift",
+      "line": 8,
+      "symbol": "BinaryError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryError.swift",
+      "line": 9,
+      "symbol": "BinaryError.outOfBounds",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryError.swift",
+      "line": 10,
+      "symbol": "BinaryError.notString",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryError.swift",
+      "line": 11,
+      "symbol": "BinaryError.requestesByteCountDoesNotFitIntoRequestedIntegerType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryReader.swift",
+      "line": 13,
+      "symbol": "BinaryReader",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryReader.swift",
+      "line": 29,
+      "symbol": "BinaryReader.isEmpty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryReader.swift",
+      "line": 190,
+      "symbol": "BinaryReader.readBytes(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryReader.swift",
+      "line": 231,
+      "symbol": "BinaryReader.readInteger(type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryReader.swift",
+      "line": 238,
+      "symbol": "BinaryReader.readInteger(byteCount:type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryReader.swift",
+      "line": 264,
+      "symbol": "BinaryReader.readRemainingBytes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryReader.swift",
+      "line": 288,
+      "symbol": "BinaryReader",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryWriter.swift",
+      "line": 3,
+      "symbol": "BinaryWriter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryWriter.swift",
+      "line": 68,
+      "symbol": "BinaryWriter.writeBits(from:count:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryWriter.swift",
+      "line": 94,
+      "symbol": "BinaryWriter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryWriter.swift",
+      "line": 114,
+      "symbol": "BinaryWriter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/BinaryWriter.swift",
+      "line": 116,
+      "symbol": "BinaryWriter.init(capacity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/FixedWidthInteger.swift",
+      "line": 12,
+      "symbol": "FixedWidthInteger.toNetworkByteOrder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/FixedWidthInteger.swift",
+      "line": 25,
+      "symbol": "FixedWidthInteger.init(networkByteOrder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/BinaryKit/BinaryKit/Sources/BinaryKit/FixedWidthInteger.swift",
+      "line": 31,
+      "symbol": "FixedWidthInteger.init(bytes:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/BinaryKit/BinaryKit"
+}
